@@ -1,0 +1,31 @@
+// App level styles
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Page {
+  background-color: white;
+}
+
+ActionBar {
+  background-color: white;
+  color: black;
+}
+
+.fas {
+  font-family: "Font Awesome 5 Free", "fa-solid-900";
+  font-weight: 900;
+}
+
+.btn {
+  border-radius: 8;
+  padding: 12 24;
+  font-size: 16;
+  font-weight: bold;
+}
+
+.input {
+  padding: 12;
+  font-size: 16;
+  border-radius: 8;
+}
